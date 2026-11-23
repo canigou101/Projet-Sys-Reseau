@@ -1,0 +1,55 @@
+# Fichiers objets
+*.o
+*.obj
+
+# Bibliothèques
+*.a
+*.so
+*.dll
+*.dylib
+
+# Exécutables
+*.exe
+*.out
+*.elf
+
+# Fichiers générés par GCC
+*.gch
+
+# Fichiers de profilage et debug
+gmon.out
+*.gcda
+*.gcno
+*.gcov
+
+# Core dumps
+core
+core.*
+
+# Dossiers de build
+build/
+bin/
+dist/
+out/
+
+# Fichiers temporaires
+*~
+*.swp
+*.swo
+
+# VS Code
+.vscode/
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Logs
+*.log
